@@ -10,6 +10,7 @@ public class ViewContactUs extends AbstractController{
     
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest req, HttpServletResponse resp) throws Exception {
+                                  System.out.println("welcome page");
 		return new ModelAndView("contactus");
 	}
 
